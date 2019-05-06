@@ -1,0 +1,33 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true
+  },
+  "plugins": [
+    "react",
+    "react-native"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:react-native/all"
+  ],
+  "settings": {
+    "react": {
+      "version": "16.6"
+    }
+  },
+  "rules": {
+    "no-console": 0,
+    "no-sequences": 2,
+    "semi": 2,
+    "eol-last": 2
+  },
+  "globals": {
+    "__DEV__": true,
+    "Promise": true,
+    "require": true,
+    "process": true,
+    "module": true
+  }
+}
