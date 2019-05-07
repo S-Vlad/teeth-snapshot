@@ -6,7 +6,6 @@ import navigation from './navigation';
 
 export default function configureStore() {
   const navigationMiddleware = createReactNavigationReduxMiddleware(
-    'root',
     state => state.navigation
   );
 
