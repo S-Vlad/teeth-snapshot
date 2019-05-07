@@ -21,7 +21,8 @@
     "no-console": 0,
     "no-sequences": 2,
     "semi": 2,
-    "eol-last": 2
+    "eol-last": 2,
+    "react/no-unused-prop-types": 2
   },
   "globals": {
     "__DEV__": true,
