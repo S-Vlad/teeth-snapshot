@@ -57,6 +57,8 @@
 		F57D47D0228369B000C62AC4 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F57D47C1228369B000C62AC4 /* EvilIcons.ttf */; };
 		F57D47D1228369B000C62AC4 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F57D47C2228369B000C62AC4 /* SimpleLineIcons.ttf */; };
 		F57D47D2228369B000C62AC4 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F57D47C3228369B000C62AC4 /* MaterialIcons.ttf */; };
+		F57D47D52283875500C62AC4 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F57D47D32283875500C62AC4 /* OpenSans-Regular.ttf */; };
+		F57D47D62283875500C62AC4 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F57D47D42283875500C62AC4 /* OpenSans-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -397,6 +399,8 @@
 		F57D47C1228369B000C62AC4 /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EvilIcons.ttf; sourceTree = "<group>"; };
 		F57D47C2228369B000C62AC4 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SimpleLineIcons.ttf; sourceTree = "<group>"; };
 		F57D47C3228369B000C62AC4 /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialIcons.ttf; sourceTree = "<group>"; };
+		F57D47D32283875500C62AC4 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Regular.ttf"; path = "Fonts/OpenSans-Regular.ttf"; sourceTree = SOURCE_ROOT; };
+		F57D47D42283875500C62AC4 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Bold.ttf"; path = "Fonts/OpenSans-Bold.ttf"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -688,6 +692,8 @@
 		F57D47B4228369B000C62AC4 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				F57D47D42283875500C62AC4 /* OpenSans-Bold.ttf */,
+				F57D47D32283875500C62AC4 /* OpenSans-Regular.ttf */,
 				F57D47B5228369B000C62AC4 /* Octicons.ttf */,
 				F57D47B6228369B000C62AC4 /* Feather.ttf */,
 				F57D47B7228369B000C62AC4 /* Entypo.ttf */,
@@ -1184,6 +1190,7 @@
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				F57D47C8228369B000C62AC4 /* MaterialCommunityIcons.ttf in Resources */,
 				F57D47C4228369B000C62AC4 /* Octicons.ttf in Resources */,
+				F57D47D62283875500C62AC4 /* OpenSans-Bold.ttf in Resources */,
 				F57D47CA228369B000C62AC4 /* Foundation.ttf in Resources */,
 				F57D47CF228369B000C62AC4 /* Zocial.ttf in Resources */,
 				F57D47C5228369B000C62AC4 /* Feather.ttf in Resources */,
@@ -1195,6 +1202,7 @@
 				F57D47CC228369B000C62AC4 /* FontAwesome5_Solid.ttf in Resources */,
 				F57D47D1228369B000C62AC4 /* SimpleLineIcons.ttf in Resources */,
 				F57D47D0228369B000C62AC4 /* EvilIcons.ttf in Resources */,
+				F57D47D52283875500C62AC4 /* OpenSans-Regular.ttf in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

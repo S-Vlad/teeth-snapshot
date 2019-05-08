@@ -1,6 +1,8 @@
 export const BLACK = '#000000';
 export const WHITE = '#ffffff';
 
+export const GRAYISH_NAVY_DARKEST = '#2a2b30';
+
 export const GRAY_LIGHT = '#d8d8d8';
 export const GRAY_LIGHTER = '#f5f5f5';
 export const GRAY_LIGHTEST = '#eee';
