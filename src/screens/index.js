@@ -2,6 +2,7 @@ import React, { PureComponent } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { View, StyleSheet } from 'react-native';
+import { createReduxContainer } from 'react-navigation-redux-helpers';
 
 import { default as PureNavigator } from './navigator';
 
@@ -16,7 +17,7 @@ class App extends PureComponent {
   constructor(props) {
     super(props);
 
-    AppNavigator = PureNavigator;
+    AppNavigator = createReduxContainer(PureNavigator, 'root');
   }
 
   render() {
@@ -31,12 +32,8 @@ class App extends PureComponent {
 }
 
 export default connect(
-  state => ({
-    navigation: state.navigation
-  }),
-  dispatch => ({
-    dispatch
-  })
+  state => ({ navigation: state.navigation }),
+  dispatch => ({ dispatch })
 )(App);
 
 const styles = StyleSheet.create({

@@ -22,7 +22,8 @@
     "no-sequences": 2,
     "semi": 2,
     "eol-last": 2,
-    "react/no-unused-prop-types": 2
+    "react/no-unused-prop-types": 2,
+    "react-native/sort-styles": 0
   },
   "globals": {
     "__DEV__": true,

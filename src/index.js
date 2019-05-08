@@ -12,11 +12,12 @@ const persistor = persistStore(store);
 
 export default class Root extends PureComponent {
   render() {
+    //TODO: uncomment, when persistReducer will be added
     return (
       <Provider store={store}>
-        <PersistGate persistor={persistor} loading={null}>
-          <App />
-        </PersistGate>
+        {/* <PersistGate loading={null} persistor={persistor}> */}
+        <App />
+        {/* </PersistGate> */}
       </Provider>
     );
   }

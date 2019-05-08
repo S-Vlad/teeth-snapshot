@@ -1,8 +1,12 @@
-import React from 'react';
-import { View } from 'react-native';
+import React, { PureComponent } from 'react';
+import { View, Text } from 'react-native';
 
-export default class Main extends React.Component {
+export default class Main extends PureComponent {
   render() {
-    return <View />;
+    return (
+      <View>
+        <Text>Some</Text>
+      </View>
+    );
   }
 }
