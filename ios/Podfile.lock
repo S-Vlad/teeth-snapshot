@@ -1,4 +1,6 @@
 PODS:
+  - BVLinearGradient (2.5.4):
+    - React
   - React (0.59.5):
     - React/Core (= 0.59.5)
   - React/Core (0.59.5):
@@ -8,11 +10,14 @@ PODS:
   - yoga (0.59.5.React)
 
 DEPENDENCIES:
+  - BVLinearGradient (from `../node_modules/react-native-linear-gradient`)
   - React (from `../node_modules/react-native`)
   - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
   - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 EXTERNAL SOURCES:
+  BVLinearGradient:
+    :path: "../node_modules/react-native-linear-gradient"
   React:
     :path: "../node_modules/react-native"
   RNGestureHandler:
@@ -21,10 +26,11 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
 SPEC CHECKSUMS:
+  BVLinearGradient: 8cbc5155c978f2e43098818c91d206d07aae6d30
   React: 90adac468c7b72bf1fa6c64bf230650f851a8388
   RNGestureHandler: aea90f0ad8e35fec23438db6fc3ad79be58bb734
   yoga: 2e571f113e8cbeb0eb752aeebc86c1bfe7a8200c
 
-PODFILE CHECKSUM: 0a77c16212e7e34371d6082c741b373ce9f8d9c1
+PODFILE CHECKSUM: 498586239e4a79d483109d72c7c151c009bc0df8
 
 COCOAPODS: 1.6.1

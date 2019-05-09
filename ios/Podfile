@@ -2,6 +2,7 @@ def rn_pods
   pod 'React', :path => '../node_modules/react-native'
   pod 'yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
   pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
+  pod 'BVLinearGradient', :path => '../node_modules/react-native-linear-gradient'
 end
 
 target 'teethSnapshot' do
