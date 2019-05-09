@@ -7,8 +7,12 @@ import App from './screens';
 
 import configureStore from './store';
 
+import configureLocalization from './localization';
+
 const store = configureStore();
 const persistor = persistStore(store);
+
+configureLocalization();
 
 export default class Root extends PureComponent {
   render() {

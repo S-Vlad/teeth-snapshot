@@ -7,12 +7,15 @@ PODS:
     - yoga (= 0.59.5.React)
   - RNGestureHandler (1.2.1):
     - React
+  - RNI18n (2.0.15):
+    - React
   - yoga (0.59.5.React)
 
 DEPENDENCIES:
   - BVLinearGradient (from `../node_modules/react-native-linear-gradient`)
   - React (from `../node_modules/react-native`)
   - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
+  - RNI18n (from `../node_modules/react-native-i18n`)
   - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 EXTERNAL SOURCES:
@@ -22,6 +25,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native"
   RNGestureHandler:
     :path: "../node_modules/react-native-gesture-handler"
+  RNI18n:
+    :path: "../node_modules/react-native-i18n"
   yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -29,8 +34,9 @@ SPEC CHECKSUMS:
   BVLinearGradient: 8cbc5155c978f2e43098818c91d206d07aae6d30
   React: 90adac468c7b72bf1fa6c64bf230650f851a8388
   RNGestureHandler: aea90f0ad8e35fec23438db6fc3ad79be58bb734
+  RNI18n: e2f7e76389fcc6e84f2c8733ea89b92502351fd8
   yoga: 2e571f113e8cbeb0eb752aeebc86c1bfe7a8200c
 
-PODFILE CHECKSUM: 498586239e4a79d483109d72c7c151c009bc0df8
+PODFILE CHECKSUM: 53e0fc0c0300054377ef0fc6587102300caf94ff
 
 COCOAPODS: 1.6.1
